@@ -38,7 +38,28 @@ public class DatoGeneral {
         this.email = email;
     }
 
-    
+    public void resgistrar() {
+        // Implementar la lógica de registro
+        System.out.println("Registro de datos generales:");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Dirección: " + direccion);
+        System.out.println("Teléfono: " + telefono);
+        System.out.println("Email: " + email);
+    }
+   public void modificar() {
+        // Implementar la lógica de modificación
+        System.out.println("Modificación de datos generales:");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Dirección: " + direccion);
+        System.out.println("Teléfono: " + telefono);
+        System.out.println("Email: " + email);
+    }
+    public void eliminar() {
+        // Implementar la lógica de eliminación
+        System.out.println("Eliminación de datos generales:");
+        System.out.println("Nombre: " + nombre);
+       
+    }
 
 
 }
