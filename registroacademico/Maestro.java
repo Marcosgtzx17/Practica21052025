@@ -23,4 +23,9 @@ public class Maestro extends DatoGeneral{
     this.grados = grados;
  }
 
+ public void pasarLista() {
+    // Implementar la lógica para pasar lista
+    System.out.println("Pasando lista del maestro " + getNombre() + ":");
+    // Aquí se puede agregar la lógica para pasar lista
+ }
 }
