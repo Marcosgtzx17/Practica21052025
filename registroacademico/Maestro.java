@@ -1,6 +1,7 @@
 package registroacademico;
 
-public class Maestro extends DatoGeneral{
+public class Maestro extends DatoGeneral
+{
  private String dui;
  private String grados;
  public Maestro() {
@@ -28,4 +29,12 @@ public class Maestro extends DatoGeneral{
     System.out.println("Pasando lista del maestro " + getNombre() + ":");
     // Aquí se puede agregar la lógica para pasar lista
  }
+ @Override
+ public void modificar() {
+    // Implementar la lógica de modificación
+    System.out.println("Modificación de datos del maestro:");
+    System.out.println("Número de DUI: " + dui);
+    System.out.println("Grados: " + grados);
+ }
+ 
 }
