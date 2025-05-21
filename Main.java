@@ -1,5 +1,6 @@
 import registroacademico.Alumno;
 import registroacademico.DatoGeneral;
+import registroacademico.ISearch;
 import registroacademico.Maestro;
 public class Main {
 public static void main(String[] args) {
@@ -17,9 +18,12 @@ public static void main(String[] args) {
     maestro.modificar();
   }
  
-    
+      public static void ver(ISearch iSearch) {
+       iSearch.obtenerTodos();
+       iSearch.obtenerPorId(1);
+    }
 
     // Aquí puedes agregar más instancias y pruebas según sea necesario
 }
-    // quí puedes agregar más instancias y pruebas según sea necesario
+   
 
