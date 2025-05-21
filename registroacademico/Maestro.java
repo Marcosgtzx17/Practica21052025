@@ -36,5 +36,10 @@ public class Maestro extends DatoGeneral
     System.out.println("Número de DUI: " + dui);
     System.out.println("Grados: " + grados);
  }
- 
+ @Override
+  public void imprimir() {
+        // Implementar la lógica de impresión
+        System.out.println("Imprimiendo datos del maestro:");
+      
+    }
 }

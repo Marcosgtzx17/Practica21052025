@@ -1,6 +1,6 @@
 package registroacademico;
 
-public class DatoGeneral {
+public abstract class DatoGeneral {
     private String nombre;
     private String direccion;
     private String telefono;
@@ -61,5 +61,5 @@ public class DatoGeneral {
        
     }
 
-
+public abstract void imprimir(); // Método abstracto para imprimir datos específicos
 }

@@ -40,6 +40,14 @@ public void verNotas() {
         System.out.println("Número de carnet: " + nCarnet);
         System.out.println("Encargado: " + encargado);
     }
+  @Override
+  public void imprimir() {
+        // Implementar la lógica de impresión
+        System.out.println("Imprimiendo datos del alumno:");
+      
+    }
+    
+  }
    
     
-}
+
